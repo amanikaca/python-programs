@@ -1,6 +1,6 @@
 import time
 
-# Open a file in write mode
+# Open a file 
 with open("output.txt", "w") as f:
     for i in range(5):
         # Print to file with flush=True to immediately write
