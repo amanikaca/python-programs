@@ -61,57 +61,55 @@ print(f"b not in mylist :{a not  in mylist}")
 
 
 #output
-'''
-C:\Users\Dell\Desktop\-\Python>py operators.py
-enter two numbers
-enter the first number (a) : 3
-enter the second number (b): 5
-Enter the numbers separated by space: 4 6 3 7
+#C:\Users\Dell\Desktop\-\Python>py operators.py
+#enter two numbers
+#enter the first number (a) : 4
+#enter the second number (b): 6
+#Enter the numbers separated by space: 2 5 3 7
 
- ----------Arithemetic operators ----------
-add : 8
-subtraction :-2
-multiplication : 15
-division : 0.6
-floor division : 0
-exponential : 243
-modulus : 3
+# ----------Arithemetic operators ----------
+#add : 10
+#subtraction :-2
+#multiplication : 24
+#division : 0.6666666666666666
+#floor division : 0
+#exponential : 4096
+#modulus : 4
 
- ----------Assignment operators ----------
-x+=b: 8
-x-=b: 3
-x*=b: 15
-x/=b: 3.0
+# ----------Assignment operators ----------
+#x+=b: 10
+#x-=b: 4
+#x*=b: 24
+#x/=b: 4.0
 
- ----------comparison  operators ----------
-a==b :False
-a!=b :True
-a<=b :True
-a>=b :False
-a<b :True
-a>b :False
+ #----------comparison  operators ----------
+#a==b :False
+#a!=b :True
+#a<=b :True
+#a>=b :False
+#a<b :True
+#a>b :False
 
- ----------logical  operators ----------
-a<5 and b>5 :False
-a<5 or b>5 :True
-not(a>5) :True
+ #----------logical  operators ----------
+a#<5 and b>5 :True
+#a<5 or b>5 :True
+#not(a>5) :True
 
- ----------bitwise operators ----------
-a&b :1
-a|b :7
-a^b :6
-a<<b :96
-a>>b :0
-~a :-4
+ #----------bitwise operators ----------
+#a&b :4
+#a|b :6
+#a^b :2
+#a<<b :256
+#a>>b :0
+#~a :-5
 
- ----------special operators ----------
+ #----------special operators ----------
 
-    ----------identity operators ----------
-a is b :False
-a is not b :True
+  #  ----------identity operators ----------
+#a is b :False
+#a is not b :True
 
-    ----------membership operators ----------
-[4, 6, 3, 7]
-a in mylist :True
-b not in mylist :False
-'''
+ #   ----------membership operators ----------
+#[2, 5, 3, 7]
+#a in mylist :False
+#b not in mylist :True
