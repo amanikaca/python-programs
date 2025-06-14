@@ -4,12 +4,13 @@ def add(a, b): return a + b
 def sub(a, b): return a - b
 def mul(a, b): return a * b
 def div(a, b): return a / b if b != 0 else "Undefined"
+def mod(a, b): return a % b if b != 0 else "undefined"
 
 print("Simple Calculator")
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
-print("Choose operation: +, -, *, /")
+print("Choose operation: +, -, *, /, %")
 op = input("Enter operator: ")
 
 if op == '+':
@@ -20,6 +21,8 @@ elif op == '*':
     print(f"Result: {mul(a, b)}")
 elif op == '/':
     print(f"Result: {div(a, b)}")
+elif op == '%':
+    print(f"Result: {mod(a, b)}")    
 else:
     print("Invalid operator.")
 
@@ -55,6 +58,13 @@ else:
 #Choose operation: +, -, *, /
 #Enter operator: /
 #Result: 14.0
+
+#Simple Calculator
+#Enter first number: 4
+#Enter second number: 5
+#Choose operation: +, -, *, /, %
+#Enter operator: %
+#Result: 4.0
 
 
 
